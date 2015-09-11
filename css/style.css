@@ -1,0 +1,100 @@
+@media only screen and (max-width: 500px) {
+    header {
+        padding: 3em 0;
+    }
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  border-top-style: solid;
+  border-top-color: #246BB2;
+  border-top-width: 1em;
+  background-image: url("https://images.unsplash.com/42/kMh0QXZMQOmsIiQRQIlW_14701556285_aacce9be47_o.jpg?q=80&fm=jpg&s=78f625fa3d6598c0322d9b55621dad2c");
+  background-size: cover;
+  background-position: 0% 50%;
+  padding: 9em 0;
+  background-repeat: no-repeat;
+}
+
+header p, h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header p {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  color: #262626;
+  font-size: 2em;
+}
+
+header h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #246BB2;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  font-size: 5em;
+  text-shadow: 4px 1px 0 #262626;
+}
+
+section {
+  margin: 3em auto;
+  max-width: 32em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+   color: #246BB2;
+}
+
+a:visited {
+   color: #246BB2;
+}
+
+a:hover {
+  color: #FF9933;
+}
+
+a:active {
+  color: #246BB2;
+}
+
+.question {
+  font-family: 'Gentium Book Basic', Georgia, serif;
+  font-size: 1.2em;
+  color: #246BB2;
+  font-weight: bold;
+}
+
+footer {
+  font-size: 1em;
+  background-color: #262626;
+  padding: 1em;
+}
+
+.foot {
+  color: #ffffff;
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.foot li {
+  display: inline;
+  margin-right: .5em;
+  margin-left: .5em;
+}
